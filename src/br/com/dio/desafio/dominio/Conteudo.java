@@ -9,7 +9,7 @@ public abstract class Conteudo {
 
     public abstract double calcularXp();
 
-    public String getTitulo() {
+    protected String getTitulo() {
         return titulo;
     }
 
@@ -17,7 +17,7 @@ public abstract class Conteudo {
         this.titulo = titulo;
     }
 
-    public String getDescricao() {
+    protected String getDescricao() {
         return descricao;
     }
 
